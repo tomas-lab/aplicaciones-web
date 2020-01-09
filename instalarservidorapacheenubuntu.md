@@ -5,4 +5,5 @@
 
 $ sudo apt install apache2
 
-sudo fuser -vki /var/lib/dpkg/lock
+ Comando para el error “No se pudo bloquear /var/lib/dpkg/lock – open (11: Recurso no disponible temporalmente)”: 
+ **sudo fuser -vki /var/lib/dpkg/lock**
