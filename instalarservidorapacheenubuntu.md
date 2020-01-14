@@ -20,7 +20,13 @@ sudo systemctl stop apache2: Para detener el servidor
 sudo systemctl start apache2: Para arrancar el servidor
 sudo systemctl status apache2: Para ver el estado del servidor
 
-![Texto alternativo](/ruta/a/la/imagen.jpg): Para meter imagenes en md
+sudo mkdir -p /var/www/nombredirectorio.com/public_html: este comando se utiliza para crear un directorio dentro de la carpeta /var/www
+
+sudo cp 000-default.conf example.com.conf dentro de /etc/apache2/sites-available
+sudo nano example.com.conf para configurar el fichero
+
+sudo a2ensite example.com.conf
+sudo a2dissite 000-default.conf
 
 
 
